@@ -1,4 +1,6 @@
-# 南京大学山寨LyX研究生毕业论文模板
+# 南京大学山寨LyX研究生毕业论文模板(Windows)
+
+## 在jyy的基础上稍作修改，适应windows系统，下面是原版README
 
 宗旨：**去你麻痹的国家标准**。请看[示例](https://raw.githubusercontent.com/jiangyy/njuthesis/master/example.pdf)。
 
@@ -20,7 +22,12 @@ p.s. 真佩服论文模版的原始作者njut的dalao能完成如此浩大的工
 2. lyx (>= 2.3);
 3. Python3 (包含pyyaml库)。
 
-直接`make`就可以将example文件编译。首次make之后用lyx打开每一章(chapx.lyx)都可以单独编译。
+~~直接`make`就可以将example文件编译。首次make之后用lyx打开每一章(chapx.lyx)都可以单独编译。~~
+windows系统下先运行
+```
+python .\res\render.py
+```
+打开lyx，软件中打开`example/main.lyx`，导出PDF(XeTex)。然后可以打开每一章(chapx.lyx)单独编译。
 
 创建自己的论文：<font color="red">把example目录在项目根目录下拷贝一份，相应修改thesis.yaml中的directory和Makefile，make后就可以尽情修改了。</font>
 
