@@ -1932,6 +1932,16 @@ thesection~#1}}
 \end_inset
 
 
+\begin_layout Plain Layout
+
+
+\backslash
+pagestyle{fancy}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
